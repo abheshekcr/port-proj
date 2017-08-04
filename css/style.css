@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+}
+
+.title{
+    font-family: 'Yantramanav', sans-serif;
+    color: #9C9898;
+}
+
+a{
+    text-decoration: none;
+}
+
+div a{
+    margin-bottom: 20px;
+}
+
+a h1,a{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #9C9898;
+}
+
+.menu{
+    margin-top: 5px;
+}
+
+.footer{
+    margin-bottom:100px;
+    float: right;
+}
+
+.fa{
+    padding-right: 10px;
+}
+
+
+li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
